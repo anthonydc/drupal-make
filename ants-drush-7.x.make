@@ -56,6 +56,9 @@ libraries[modernizr][download][type] = file
 libraries[modernizr][download][url] = http://modernizr.com/downloads/modernizr-latest.js
 libraries[modernizr][download][filename] = modernizr.min.js
 libraries[modernizr][destination] = libraries
+libraries[modernizr][download][type] = file
+libraries[mandrill][download][url] = https://bitbucket.org/mailchimp/mandrill-api-php/get/1.0.52.zip
+libraries[mandrill][destination] = libraries
 
 
 ; Development

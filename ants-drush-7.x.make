@@ -99,6 +99,8 @@ projects[realname][subdir] = contrib
 projects[variable][subdir] = contrib
 projects[advanced_help][subdir] = contrib
 projects[rules][subdir] = contrib
+projects[recaptcha][subdir] = contrib
+
 
 ; Panels
 projects[panels][subdir] = contrib

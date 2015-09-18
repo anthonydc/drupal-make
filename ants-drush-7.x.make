@@ -19,7 +19,7 @@ api = 2
 ; alternative core projects like Pressflow. Note that makefiles included with
 ; install profiles *should not* include a core project.
 
-projects[drupal][version] = 7
+projects[drupal][version] = 7.39
 
 
 ; Modules / Themes
@@ -32,6 +32,10 @@ projects[drupal][version] = 7
 ; Administration
 projects[admin_menu][subdir] = contrib
 projects[module_filter][subdir] = contrib
+
+
+; Commerce
+projects[commerce][subdir] = contrib
 
 
 ; Design / Theming
@@ -80,6 +84,11 @@ projects[link][subdir] = contrib
 projects[field_collection][subdir] = contrib
 projects[video_embed_field][subdir] = contrib
 
+; Organic Groups
+projects[og][subdir] = contrib
+projects[og_vocab][subdir] = contrib
+projects[og_extras][subdir] = contrib
+projects[message_notify][subdir] = contrib
 
 ; Other
 projects[entity][subdir] = contrib
@@ -88,9 +97,8 @@ projects[login_destination][subdir] = contrib
 projects[email_registration][subdir] = contrib
 projects[realname][subdir] = contrib
 projects[variable][subdir] = contrib
-projects[sshkey][subdir] = contrib
 projects[advanced_help][subdir] = contrib
-
+projects[rules][subdir] = contrib
 
 ; Panels
 projects[panels][subdir] = contrib
@@ -122,7 +130,7 @@ libraries[ckeditor][destination] = libraries
 
 ; Social Media
 projects[oauth][subdir] = contrib
-projects[twitter][subdir] = contrib
+
 
 
 ; Views

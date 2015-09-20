@@ -103,6 +103,8 @@ projects[variable][subdir] = contrib
 projects[advanced_help][subdir] = contrib
 projects[rules][subdir] = contrib
 projects[recaptcha][subdir] = contrib
+projects[pages][subdir] = contrib
+
 
 
 ; Panels
